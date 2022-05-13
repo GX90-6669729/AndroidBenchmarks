@@ -48,10 +48,10 @@ Both of these benchmarks have been tested on over 3000 devices and have over 100
 | :-------------: |:-----------------:| :-----:|
 | UX   | No | Yes |
 | CPU  | Yes | Yes |
-| RAM | No |  Yes |
+| RAM | Yes |  Yes |
 | Storage IO | Yes | Yes |
-| GPU | No | Yes |
-| Network | Yes | No |
+| GPU | Yes | Yes |
+
 
 ## Usage: Activities
 
