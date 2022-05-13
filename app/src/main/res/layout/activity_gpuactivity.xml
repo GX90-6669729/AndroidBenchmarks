@@ -145,8 +145,11 @@
         android:entries="@array/loops_array" />
 
     <Button
-        android:layout_gravity="left"
         android:id="@+id/buttonRun"
+        android:layout_width="82dp"
+        android:layout_row="0"
+        android:layout_column="36"
+        android:layout_gravity="left"
         android:text="Run" />
 
     <TextView />
