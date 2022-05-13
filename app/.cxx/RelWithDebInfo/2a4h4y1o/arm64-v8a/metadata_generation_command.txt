@@ -1,0 +1,23 @@
+                    Executable : C:\ProgramData\cmake\3.18.1\bin\cmake.exe
+arguments : 
+-HC:\GPU test\ncnn-android-benchmark-master\app\src\main\jni
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=24
+-DANDROID_PLATFORM=android-24
+-DANDROID_ABI=arm64-v8a
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DANDROID_NDK=C:\ProgramData\ndk\21.4.7075529
+-DCMAKE_ANDROID_NDK=C:\ProgramData\ndk\21.4.7075529
+-DCMAKE_TOOLCHAIN_FILE=C:\ProgramData\ndk\21.4.7075529\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\ProgramData\cmake\3.18.1\bin\ninja.exe
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\GPU test\ncnn-android-benchmark-master\app\build\intermediates\cxx\RelWithDebInfo\2a4h4y1o\obj\arm64-v8a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\GPU test\ncnn-android-benchmark-master\app\build\intermediates\cxx\RelWithDebInfo\2a4h4y1o\obj\arm64-v8a
+-DCMAKE_BUILD_TYPE=RelWithDebInfo
+-BC:\GPU test\ncnn-android-benchmark-master\app\.cxx\RelWithDebInfo\2a4h4y1o\arm64-v8a
+-GNinja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

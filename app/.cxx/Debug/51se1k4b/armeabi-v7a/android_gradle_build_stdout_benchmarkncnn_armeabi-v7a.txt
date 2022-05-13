@@ -1,0 +1,3 @@
+ninja: Entering directory `C:\And\AndroidBenchmark\app\.cxx\Debug\51se1k4b\armeabi-v7a'
+[1/2] Building CXX object CMakeFiles/benchmarkncnn.dir/benchmarkncnn_jni.cpp.o
+[2/2] Linking CXX shared library C:\And\AndroidBenchmark\app\build\intermediates\cxx\Debug\51se1k4b\obj\armeabi-v7a\libbenchmarkncnn.so

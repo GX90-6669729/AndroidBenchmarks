@@ -1,0 +1,18 @@
+ninja: Entering directory `C:\GPU test\ncnn-android-benchmark-master\app\.cxx\Debug\6g1i4u49\armeabi-v7a'
+[1/2] Building CXX object CMakeFiles/benchmarkncnn.dir/benchmarkncnn_jni.cpp.o
+FAILED: CMakeFiles/benchmarkncnn.dir/benchmarkncnn_jni.cpp.o 
+C:\ProgramData\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=armv7-none-linux-androideabi24 --gcc-toolchain=C:/ProgramData/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/ProgramData/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dbenchmarkncnn_EXPORTS -isystem "C:/GPU test/ncnn-android-benchmark-master/app/src/main/jni/ncnn-20220420-android-vulkan/armeabi-v7a/include/ncnn" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -fno-rtti -fno-exceptions -pthread -MD -MT CMakeFiles/benchmarkncnn.dir/benchmarkncnn_jni.cpp.o -MF CMakeFiles\benchmarkncnn.dir\benchmarkncnn_jni.cpp.o.d -o CMakeFiles/benchmarkncnn.dir/benchmarkncnn_jni.cpp.o -c "C:/GPU test/ncnn-android-benchmark-master/app/src/main/jni/benchmarkncnn_jni.cpp"
+C:/GPU test/ncnn-android-benchmark-master/app/src/main/jni/benchmarkncnn_jni.cpp:53:34: error: reference to non-static member function must be called; did you mean to call it with no arguments?
+            for (int i=0; i<(int)layers.size(); i++)
+                                 ^~~~~~
+                                       ()
+C:/GPU test/ncnn-android-benchmark-master/app/src/main/jni/benchmarkncnn_jni.cpp:55:44: error: reference to non-static member function must be called; did you mean to call it with no arguments?
+                const ncnn::Layer* layer = layers[i];
+                                           ^~~~~~
+                                                 ()
+C:/GPU test/ncnn-android-benchmark-master/app/src/main/jni/benchmarkncnn_jni.cpp:60:21: error: reference to non-static member function must be called; did you mean to call it with no arguments?
+                if (blobs[layer->tops[0]].name != "data")
+                    ^~~~~
+                         ()
+3 errors generated.
+ninja: build stopped: subcommand failed.

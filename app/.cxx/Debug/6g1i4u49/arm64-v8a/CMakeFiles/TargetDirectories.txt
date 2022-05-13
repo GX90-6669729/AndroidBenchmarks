@@ -1,0 +1,3 @@
+C:/GPU test/ncnn-android-benchmark-master/app/.cxx/Debug/6g1i4u49/arm64-v8a/CMakeFiles/benchmarkncnn.dir
+C:/GPU test/ncnn-android-benchmark-master/app/.cxx/Debug/6g1i4u49/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/GPU test/ncnn-android-benchmark-master/app/.cxx/Debug/6g1i4u49/arm64-v8a/CMakeFiles/rebuild_cache.dir

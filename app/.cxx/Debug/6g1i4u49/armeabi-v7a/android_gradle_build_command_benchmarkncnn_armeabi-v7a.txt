@@ -1,0 +1,7 @@
+Executable : C:\ProgramData\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+C:\GPU test\ncnn-android-benchmark-master\app\.cxx\Debug\6g1i4u49\armeabi-v7a
+benchmarkncnn
+jvmArgs : 
+

@@ -1,0 +1,7 @@
+Executable : C:\ProgramData\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+C:\And\AndroidBenchmark\app\.cxx\Debug\51se1k4b\armeabi-v7a
+benchmarkncnn
+jvmArgs : 
+

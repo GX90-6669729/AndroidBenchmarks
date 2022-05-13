@@ -1,0 +1,5 @@
+# ninja log v5
+1	19044	674123099	CMakeFiles/benchmarkncnn.dir/benchmarkncnn_jni.cpp.o	5c1b9259b05a67d7
+19080	34563	674123111	C:/And/AndroidBenchmark/app/build/intermediates/cxx/Debug/51se1k4b/obj/arm64-v8a/libbenchmarkncnn.so	25d390cbacc63c21
+24	10012	674126676	CMakeFiles/benchmarkncnn.dir/benchmarkncnn_jni.cpp.o	5c1b9259b05a67d7
+10012	15802	674126682	C:/And/AndroidBenchmark/app/build/intermediates/cxx/Debug/51se1k4b/obj/arm64-v8a/libbenchmarkncnn.so	25d390cbacc63c21

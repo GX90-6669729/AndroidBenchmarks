@@ -1,0 +1,51 @@
+{
+  "buildFiles": [
+    "C:\\GPU test\\ncnn-android-benchmark-master\\app\\src\\main\\jni\\CMakeLists.txt",
+    "C:\\GPU test\\ncnn-android-benchmark-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\glslangTargets-release.cmake",
+    "C:\\GPU test\\ncnn-android-benchmark-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\glslangTargets.cmake",
+    "C:\\GPU test\\ncnn-android-benchmark-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\ncnn\\ncnn-release.cmake",
+    "C:\\GPU test\\ncnn-android-benchmark-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\ncnn\\ncnn.cmake",
+    "C:\\GPU test\\ncnn-android-benchmark-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\ncnn\\ncnnConfig.cmake",
+    "C:\\GPU test\\ncnn-android-benchmark-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\OGLCompilerTargets-release.cmake",
+    "C:\\GPU test\\ncnn-android-benchmark-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\OGLCompilerTargets.cmake",
+    "C:\\GPU test\\ncnn-android-benchmark-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\OSDependentTargets-release.cmake",
+    "C:\\GPU test\\ncnn-android-benchmark-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\OSDependentTargets.cmake",
+    "C:\\GPU test\\ncnn-android-benchmark-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\SPIRVTargets-release.cmake",
+    "C:\\GPU test\\ncnn-android-benchmark-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\SPIRVTargets.cmake"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\ProgramData\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\GPU test\\ncnn-android-benchmark-master\\app\\.cxx\\RelWithDebInfo\\2a4h4y1o\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\ProgramData\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\GPU test\\ncnn-android-benchmark-master\\app\\.cxx\\RelWithDebInfo\\2a4h4y1o\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "benchmarkncnn::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "benchmarkncnn",
+      "output": "C:\\GPU test\\ncnn-android-benchmark-master\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\2a4h4y1o\\obj\\arm64-v8a\\libbenchmarkncnn.so",
+      "runtimeFiles": [
+        "C:\\ProgramData\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\24\\libvulkan.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "C:\\ProgramData\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\ProgramData\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
