@@ -5,6 +5,11 @@ android {
     buildToolsVersion '30.0.3'
     defaultConfig {
         applicationId "vendetta.androidbenchmark"
+
+        ndk {
+            moduleName "ncnn"
+            abiFilters "armeabi-v7a", "arm64-v8a"
+        }
         minSdkVersion 25
         targetSdkVersion 30
         versionCode 1
@@ -20,6 +25,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    externalNativeBuild {
+        cmake {
+            version "3.18.1"
+            path file('src/main/jni/CMakeLists.txt')
+        }
+    }
     ndkVersion '23.1.7779620'
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -29,6 +40,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.3.0'
     androidTestImplementation('androidx.test.espresso:espresso-core:3.4.0', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })

@@ -7,21 +7,23 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:id="@+id/resultScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="336dp"
         android:layout_below="@+id/extraTV"
-        android:background="@drawable/border"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="73dp"
+        android:background="@drawable/border">
 
         <LinearLayout
+            android:id="@+id/resultScrollContainerLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingTop="10dp"
             android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:id="@+id/resultScrollContainerLayout">
+            android:paddingTop="10dp"
+            android:paddingRight="5dp">
 
         </LinearLayout>
     </ScrollView>
@@ -51,17 +53,17 @@
 
     <TextView
         android:id="@+id/extraTV"
-        android:layout_height="wrap_content"
         android:layout_width="fill_parent"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="22dp"
-        android:lines="7"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-        android:text="Retrieving data from the cloud.."
+        android:layout_height="wrap_content"
         android:layout_below="@+id/scoreTV"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="15dp"
         android:layout_toStartOf="@+id/scoreTV"
-        android:layout_alignParentEnd="true" />
+        android:lines="7"
+        android:text="Retrieving data from the cloud.."
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
     <ProgressBar
         android:id="@+id/progressBar3"
